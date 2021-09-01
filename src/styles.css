@@ -1,0 +1,21 @@
+button {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+i {
+    color: white;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+#player {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
