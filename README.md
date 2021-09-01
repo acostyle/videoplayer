@@ -2,7 +2,7 @@
 Custom videoplayer
 
 ### About project
-It's a videoplayer with Play, Pause, Volume and Fullscreen button. You can check this out here:
+It's a videoplayer with Play, Pause, Volume and Fullscreen button. You can check this out here: https://acostyle.github.io/videoplayer/src/index.html
 
 ### How to install:
 First of all, you should install `livereload` module with:
