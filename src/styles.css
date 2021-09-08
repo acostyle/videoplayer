@@ -11,15 +11,14 @@
     flex-grow: 1;
 }
 
-.buttons-line {
-    background-color: black;
-    display: flex;
+.player-icon {
+    color: white;
+    font-size: 20px;
 }
 
-.fa {
-    color:  white;
-    height: 15px;
-    width: 15px;
+.player-buttons-panel {
+    background-color: black;
+    display: flex;
 }
 
 .video-player {
@@ -30,6 +29,6 @@
     box-shadow: 0 0 20px rgba(0,0,0,1);
 }
 
-.buttons-space {
+.player-buttons-filler {
     flex-grow: 1;
 }
