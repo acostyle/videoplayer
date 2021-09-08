@@ -1,4 +1,4 @@
-button {
+.player-button {
     border: none;
     background-color: black;
     cursor: pointer;
@@ -7,11 +7,7 @@ button {
     padding: 10px;
 }
 
-i {
-    color: white;
-}
-
-.container {
+.player-container {
     flex-grow: 1;
 }
 
@@ -20,7 +16,13 @@ i {
     display: flex;
 }
 
-#player {
+.fa {
+    color:  white;
+    height: 15px;
+    width: 15px;
+}
+
+.video-player {
     display: flex;
     flex-direction: column;
     width: 800px;
@@ -28,6 +30,6 @@ i {
     box-shadow: 0 0 20px rgba(0,0,0,1);
 }
 
-#space {
+.buttons-space {
     flex-grow: 1;
 }
