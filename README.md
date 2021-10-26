@@ -1,7 +1,7 @@
 # JS Videoplayer
 Custom videoplayer
 
-![Screenshot](https://i.ibb.co/TkP0TbG/screenshot.png)
+![image](https://user-images.githubusercontent.com/56687178/138896292-39f470e4-1c31-4666-bb3c-78068c2781d6.png)
 
 ### About project
 It's a videoplayer with Play, Pause, Volume and Fullscreen button. You can check this out here: [link](https://acostyle.github.io/videoplayer/src/index.html)
