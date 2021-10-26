@@ -1,4 +1,9 @@
-.player-button {
+.player .buttons-line {
+    background: black;
+    display: flex;
+}
+
+.player .player-button {
     border-style: none;
     color: white;
     cursor: pointer;
@@ -6,10 +11,17 @@
     font-size: 20px;
     height: 30px;
     width: 30px;
-    margin: 6px 3px 7px 4px;
+    margin: 6px 3px 7px 2px;
 }
 
-.time-block {
+.viewing-panel {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 11px;
+    padding-left: 2px;
+    margin-right: 4px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,12 +34,7 @@
     font-size: 20px;
 }
 
-.buttons-line {
-    background-color: black;
-    display: flex;
-}
-
-.video-player {
+.player {
     display: flex;
     flex-direction: column;
     width: 800px;
