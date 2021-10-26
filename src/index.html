@@ -5,6 +5,9 @@
   <title>AcoStyle Video Player</title>
   <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="player" class="video-player player-container" style="width: 800px; height: 600px;">
@@ -15,9 +18,9 @@
       <button class="js-volume-button player-button"><i class="fa fa-volume-off player-icon" aria-hidden="true"></i></button>
       <button class="js-mute-button player-button"><i class="fa fa-volume-up player-icon" aria-hidden="true"></i></button>
       <div style="color: white;">
-        <span class="js-current-time"></span>
+        <span class="js-current-time time-block"></span>
         —
-        <span class="js-duration"></span>
+        <span class="js-duration time-block"></span>
       </div>
       <div class="player-buttons-filler"></div>
       <button class="js-fullscreen-button player-button"><i class="fa fa-expand player-icon" aria-hidden="true"></i></button>
